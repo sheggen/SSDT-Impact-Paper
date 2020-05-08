@@ -1,0 +1,12 @@
+# Fdb version 3
+["pdflatex"] 1588955339 "methods.tex" "methods.pdf" "methods" 1588955341
+  "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
+  "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1588953002 2420340 62d8b28503ca207eba937404dbb2c84e ""
+  "/usr/local/texlive/2020/texmf.cnf" 1588952951 577 d60164b4589a341208aff7a667fbbdcb ""
+  "methods.aux" 1588955319 8 a94a2480d3289e625eea47cd1b285758 ""
+  "methods.tex" 1588955335 39936 3b0a1a5fe9dc4d31afe7fa02bfbb5f2e ""
+  (generated)
+  "methods.pdf"
+  "methods.log"
