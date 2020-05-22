@@ -1,8 +1,8 @@
-main.aux
+*.aux
 main.bbl
 main.blg
-main.fdb_latexmk
-main.fls
-main.log
+*.fdb_latexmk
+*.fls
+*.log
 main.pdf
 main.synctex.gz
