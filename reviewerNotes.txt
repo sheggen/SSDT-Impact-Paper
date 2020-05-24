@@ -1,0 +1,156 @@
+Review #203A
+===========================================================================
+
+Reviewer's topic expertise
+--------------------------
+2. I have read *some* papers on this topic.
+
+Reviewer's methods expertise
+----------------------------
+3. I have *used* the methods the paper uses.
+
+Soundness
+---------
+5. This is an experience report, so this criterion does not apply.
+
+Significance
+------------
+2. Disagree
+
+Verifiability
+-------------
+3. Agree
+
+Clarity
+-------
+3. Agree
+
+Recommendation
+--------------
+2. Weak reject
+
+Rationale
+---------
+This paper presents experience of the authors running a program to develop custom institutional software for their university. The program is staffed by undergraduate students, with instructors taking the technical and organizational lead in the projects. One of the distinguishing features of the program is that subsequent students maintain the delivered systems over multiple semesters. The projects use a light-weight process, a version of Scrum. The authors deployed 8 such systems over 5 years, and 6 of these systems are still in operation (which is a very good sign and attests to the success of the system). However, this is not a proper longitudinal study as the title suggests. The authors deployed a likert-style questionnaire to 10 developers and arrived at their conclusions based on positive responses. Unfortunately, this amounts to a very shallow evaluation. Interviews would have produced much more meaningful and insightful results with this small number of participants.
+  For this reason, the significance of the work is on the low side for SEET. Had interviews been used, I believe the paper could have spent more space focusing on the "experience" than explaining the program, which I believe was already expounded in another publication (from what the authors state in the paper). Also for an experience report, the lack of any discussion on lesson learned, challenges, future improvements was disappointing.
+
+The writing is clear, which I appreciated.
+
+Minor comments:
+
+- Section 1: You state that the program is based on both Agile and Lean in different places: I saw mostly Scrum, with mention of Kanban board being used later. Which aspects were based on lean thinking? Could you clarify this upfront.
+- Section 2.2: How do you guarantee continuity and integrity of the projects with Scrum Masters? Since they are tech leads, code reviewers, and integrators, they seem to be essential to the process. Is instructor turnover ever a problem? How would you address this?
+- Section 2.2: But isn’t it a problem that students don’t maintain their own code and transfer the liability to the next cohort? What incentives do they have to produce a quality product?
+
+Minor English/Typos:
+
+- Pg 2, Ln 2: software Engineering -> software engineering
+- Section 3.0.1: sentence at the end does not parse
+- Section 4.1: certain task -> certain tasks
+- Section 4.1: coming into the experience -> coming into the program (to avoid repeating "experience")
+
+Reviewer confidence
+-------------------
+1. Yes, invite the authors to submit to the poster track.
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+Review #203B
+===========================================================================
+
+Reviewer's topic expertise
+--------------------------
+2. I have read *some* papers on this topic.
+
+Reviewer's methods expertise
+----------------------------
+2. I have *some* familiarity with the methods the paper uses.
+
+Soundness
+---------
+5. This is an experience report, so this criterion does not apply.
+
+Significance
+------------
+1. Strongly disagree
+
+Verifiability
+-------------
+2. Disagree
+
+Clarity
+-------
+3. Agree
+
+Recommendation
+--------------
+1. Reject
+
+Rationale
+---------
+This paper discusses an undergraduate program where students develop software tailored for the clients within the university in a multi-semester internship model. This is unlike many capstone projects, that focus mostly on industry clients for one semester. I have good experience on similar projects where students work on software customized for the university, but these are usually on a one-off basis and not as part of the education programme. I like the idea of embedding such projects in an undergraduate program as they give the students a real-world environment to develop and maintain software for a “client” over time. I particularly like the principle of students staying in this project for at least a year so that they need to maintain the software instead of just developing it.
+
+However I am not really sure what I learn from this paper regarding software engineering education (besides the idea of having this type of internship). The process is quite straightforward, nothing special there. Also there is no connection of how this internship is embedded in the curriculum and how the students link knowledge from other courses to this project. To make matters worse, the evaluation concerns the end product from the point of view of end users, instead of evaluating the learning effectiveness of the program from the point of view of the student-developers. Detailed comments follow:
+-       You mention work colleges are only nine – I assume you mean in the US?
+-       The process described in Section 2 seems pretty standard for these kind of projects. Is there anything about the domain (software for universities) that requires special attention? Otherwise how is this different from similar agile processes?
+-       The title of section 2.2. mentions customer support, but this is not explained (other than a generic statement of responding to customer needs)
+-       Section 3 lists a number of technologies used which are very custom to the specific applications developed. Although I understand the selection of specific technologies, this goes against teaching students software engineering principles and abstractions instead of specific technologies. Do you have a way to connect what students learn in theory with what they work on during the project?
+-       The Chemical Inventory System is not really informative as it mostly describes the domain. I would have preferred to hear about the experience of building this software, what the students learned and feedback from this experience.
+-       The evaluation in Section 4 refers to evaluating the software through its end users, in a typical information systems approach. What I really wanted to see here is the evaluation of the program from the point of view of the students. Did they achieve their learning objectives?
+
+Reviewer confidence
+-------------------
+1. Yes, invite the authors to submit to the poster track.
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+Review #203C
+===========================================================================
+
+Reviewer's topic expertise
+--------------------------
+4. I know *most* of the important discoveries on this topic.
+
+Reviewer's methods expertise
+----------------------------
+4. I have *rigorously conducted* the methods the paper uses.
+
+Soundness
+---------
+5. This is an experience report, so this criterion does not apply.
+
+Significance
+------------
+2. Disagree
+
+Verifiability
+-------------
+3. Agree
+
+Clarity
+-------
+2. Disagree
+
+Recommendation
+--------------
+2. Weak reject
+
+Rationale
+---------
+The paper an experience report on using computer science students for developing software for educations.
+
+The paper is selling the idea that software engineering students can create quality software. The problem with this conclusion is that it is not necessarily very surprising. In many such institutions, the students work part-time, or even full-time, during they studies, some after one or two years of studies. In this light, their ability to produce good quality code, or at least the industrial quality, code is not that surprising, as that is what they already do for money.
+
+We also have applications for internal use created in student project, in internships and in specific development teams they are hired for. This, of course, does not mean there could not be a paper reporting about such experiences. The point is, that in many cases the issue is not the creation of a working software but organising for its maintenance over a few years. And integration to other systems. If these become an issue, e.g., due to changing requirements (such as curriculum details), constraints, or changes in programming environment, finding a solution may not be that trivial.
+
+The price of such software being lower than professional software is also a controversial issue. First of all, it would be good to understand why that is the case. Or in other words, are there some hidden costs or risks not covered that lower the price, such as long term maintenance or development. These could have been elaborated, if one major factor for the points of the paper.
+
+Thus, the main problem with the paper is not the main idea of using students to produce software for the own use of an educational institution but it would have been more informative if the paper would have concentrated on the more difficult aspects of such organisation, as mentioned above.
+
+Reviewer confidence
+-------------------
+1. Yes, invite the authors to submit to the poster track.
